@@ -9,4 +9,12 @@ public class Calculator {
     public float substract(float x, float y){
         return  x - y;
     }
+
+    public float multiplication(float x, float y){
+        return x * y;
+    }
+
+    public float division(float x, float y){
+        return x/y;
+    }
 }
