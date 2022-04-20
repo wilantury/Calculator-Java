@@ -10,11 +10,15 @@ public class Calculator {
         return  x - y;
     }
 
+
     public float multiplication(float x, float y){
         return x * y;
     }
 
-    public float division(float x, float y){
-        return x/y;
+    public float division(float x, float y) {
+        return x / y;
+    }
+    float pw2(float x){
+        return x*x;
     }
 }
